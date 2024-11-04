@@ -45,10 +45,10 @@ quickyly calculate and update product accessory prices through SQLITE, and be fr
   - 一些可供修改的配置文件，包括飞、锻的价格、阀杆斤价、货源毛坯单价和一个材质批量修改配置；所有内容可竖向添加，数据库同步修改。
 ## main.db
   - 数据库文件，存储阀门，配件，阀门-配件关系，阀门-货源四张表。
-  -- valves (name TEXT PRIMARY KEY, date DATE, weight REAL, hnumber TEXT, rodd TEXT, rodl TEXT , diff REAL, remark TEXT)
-  -- items (name TEXT PRIMARY KEY, cost REAL)
-  -- relationships (vname TEXT, iname TEXT, count INTEGER, PRIMARY KEY (vname,iname))
-  -- re_supplies (name TEXT, supply TEXT, cost REAL, bweight REAL, bwcost REAL, process REAL, PRIMARY KEY (name,supply))
+  - -valves (name TEXT PRIMARY KEY, date DATE, weight REAL, hnumber TEXT, rodd TEXT, rodl TEXT , diff REAL, remark TEXT)
+  - -items (name TEXT PRIMARY KEY, cost REAL)
+  - -relationships (vname TEXT, iname TEXT, count INTEGER, PRIMARY KEY (vname,iname))
+  - -re_supplies (name TEXT, supply TEXT, cost REAL, bweight REAL, bwcost REAL, process REAL, PRIMARY KEY (name,supply))
 ## 配件价格.xlsx
   - 可以批量修改配件价格的excel文件，通过点击菜单栏'导入/导出-导入配件价格'实现。
 ## 配件明细汇总_.xlsx
