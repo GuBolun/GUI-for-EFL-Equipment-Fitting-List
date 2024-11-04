@@ -1,4 +1,4 @@
-# GUI-for-EFL-Equipment-Fitting-List
+# GUI-for-Equipment-Fitting-List
 quickyly calculate and update product accessory prices through SQLITE, and be friendly to EXCEL
 
 # 特别说明：
